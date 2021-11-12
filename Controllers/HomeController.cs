@@ -33,5 +33,13 @@ namespace POS.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public IActionResult CreateUser()
+        {
+            return View();
+        }
+        public IActionResult UpdateUser()
+        {
+            return View();
+        }
     }
 }
